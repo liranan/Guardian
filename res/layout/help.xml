@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back5" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="top|clip_horizontal"
+            android:text=
+"使用说明\n
+手护者：\n
+1、	启动“手护者”，打开功能开关。根据自己习惯设置阈值和解锁时延。\n
+2、	如果有配套手环，点击蓝牙报警开关,点击connect按钮，连接手环。\n
+3、	打开数据销毁开关，默认选择通讯录和短信息，可以利用按钮自由选择需要保护的数据。\n
+4、	连接手环后，在设置里点击主人识别，就会在设备名称右侧显示信号强度，表示功能开启。可以识别靠近远离动作。\n
+5、	点击通讯录备份按钮，可以将联系人备份到手环中。\n
+6、	设置完成后，点击home键，手护者后台运行。\n
+7、	锁定屏幕5s后，设备会震动一下，表示开始工作。\n\n
+手环：\n
+1、	打开电源，手环自动搜索主机。\n
+2、	连接后，屏幕显示信号强度和连接状态。\n
+3、	主机发出报警时，手环会同步发出震动信号。\n
+4、	手环离开主机5m后，会震动报警。\n
+5、	发现主机危险后，可以操作按钮控制主机，用户可以根据屏幕提示进行操作。按钮列表：\n
+左: 音量减\n
+右: 音量加\n
+中左: 删除数据\n
+中右: 恢复通讯录\n
+上: 停止报警\n
+下: 报警\n
+注意事项：\n
+1、	手环上点击删除，将会删除主机相应数据，谨慎操作。\n
+2、	恢复通讯录和恢复短信息只能点击一次进行恢复，不可多点。\n
+3、	手环上传数据时，中途不可断开连接。\n
+4、	某些功能需要root权限。\n"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back5" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="466dp"
+            android:gravity="top|clip_horizontal"
+            android:text="使用说明:\n1、加入设置选项，包括设置阈值，传感器选择，解锁时延，传感器校正，使用帮助 。\n2、文件选择：默认为通讯录，短信和通话记录。可选:qq，微信等软件登陆信息，照片等文件夹。\n3、尝试进行加密，如果检测到误报（报警后解锁），并且数据已经被加密的话，直接恢复回来。\n4、在锁屏后，准备进入状态监测时，提醒一下（震动一下）。\n5、想个办法监测通讯录的更新，如果加入新的，一般也就几条记录，在删除前发送到手环，然后再综合网络数据进行恢复。避免数据丢失。这样传送数据量很小，1s基本能行。\n"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</ScrollView>
